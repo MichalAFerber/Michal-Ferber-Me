@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Michal Ferber
+title: Michal.Ferber.Me
 
 # Your name to show in the footer
 author: Michal Ferber
@@ -20,21 +20,9 @@ author: Michal Ferber
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Badges: "badges"
-  Downloads: "downloads"
-  Programming:
-      - GSA Manager: "gsamanager"
-      - IP Cow: "ipcow"
-      - ModMan: "modman"
-  Websites:
-      - Ari Integration: "https://ari-integration.com/"
-      - Ferber Family: "https://ferber.me/"
-      - Ferber Wallet: "https://ud.me/ferberfamily.wallet"
-      - GSA Manager: "https://gsamanager.org/"
-      - IP Cow: "https://ipcow.com/"
-      - KJ4DIA: "https://kj4dia.me/"
-      - Michal.Ferber.Me: "https://michal.ferber.me/"
+  Contact Me: "contact-me"
+  Files: "files"
+  Images: "images"
 
 ################
 # --- Logo --- #
@@ -60,9 +48,9 @@ title-img: /assets/img/logo.png
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
 #  email: "example@company.com"
-#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: DeanAttali
-  github: MichalAFerber
+#  github: MichalAFerber
   twitter: MichalAFerber
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -78,7 +66,7 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+  telegram: MichalAFerber
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
@@ -98,8 +86,8 @@ rss-description: love Jesus, love each other, work hard, play hard
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
-  linkedin: false
+  facebook: true
+  linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
